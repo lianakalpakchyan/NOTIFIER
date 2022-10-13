@@ -1,0 +1,10 @@
+2022-10-11 15:01:23,632::src.infrastructure.controllers:69::DEBUG::Logger is initialized!
+2022-10-11 15:01:30,878::src.infrastructure.controllers:110::INFO::Mail is successfully send
+2022-10-11 15:01:32,436::src.infrastructure.controllers:110::INFO::Mail is successfully send
+2022-10-11 15:01:33,140::src.infrastructure.controllers:116::ERROR::The email address is not valid. It must have exactly one @-sign.
+2022-10-11 15:01:33,212::src.infrastructure.controllers:119::CRITICAL::Invalid publication type
+2022-10-11 15:01:33,689::src.infrastructure.controllers:110::INFO::Message is successfully send
+2022-10-11 15:01:33,690::src.infrastructure.controllers:119::CRITICAL::Invalid publication type
+2022-10-11 15:01:34,031::src.infrastructure.controllers:110::INFO::Message is successfully send
+2022-10-11 15:01:34,343::src.infrastructure.controllers:116::ERROR::The request to the Slack API failed. (url: https://www.slack.com/api/chat.postMessage)
+The server responded with: {'ok': False, 'error': 'channel_not_found'}
