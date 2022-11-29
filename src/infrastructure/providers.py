@@ -38,7 +38,7 @@ class SlackMessengerProvider(BaseMessengerServiceProvider):
 
         try:
             channel = self.service.channel
-            text = 'New blog post published by USER:\n' + str(self.event_entity.get('body'))
+            text = self.event_entity.get('body')
             self.service.client.chat_postMessage(channel=channel, text=text)
             self.logger_provider.info('Message is successfully send')
             answer = 'message success'
@@ -83,7 +83,7 @@ class EmailServiceProvider(BaseEmailServiceProvider):
             self.logger_provider.error(error)
 
         try:
-            text = 'Dear USER your post has been approved.\n' + str(self.event_entity.get('body'))
+            text = self.event_entity.get('body')
             to = self.event_entity.get('to')
 
             # email validation
