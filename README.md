@@ -5,7 +5,7 @@ Notifier API is used to send notifications using email services and messenger ap
 ## Installation
 
 ```bash
-git clone [git@github.com:LianaSmile/NOTIFIER.git](https://github.com/lianakalpakchyan/NOTIFIER.git)
+git clone https://github.com/lianakalpakchyan/NOTIFIER.git
 cd NOTIFIER
 docker build --tag notifier .
 docker run -p 127.0.0.1:80:8080/tcp notifier
